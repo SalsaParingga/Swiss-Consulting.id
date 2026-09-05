@@ -1,0 +1,24 @@
+{
+  "name": "swiss-consulting-id",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website resmi Swiss Consulting.id (static site, hosted on Hostinger)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server ."
+  },
+  "keywords": [
+    "swiss-consulting",
+    "website",
+    "static-site"
+  ],
+  "author": "Salsa Paringga",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalsaParingga/Swiss-Consulting.id.git"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
