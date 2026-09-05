@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SWISS CONSULTING</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="variabel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--================ LOADER ================-->
+
+    <div class="loader">
+        <span></span>
+    </div>
+
+
+    <!--================ HEADER ================-->
+
+    <header id="header">
+
+        <div class="container">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpeg" alt="Swiss Consulting Logo">
+                </a>
+            </div>
+
+
+            <!-- NAVBAR -->
+            <nav id="navbar">
+
+                <ul>
+
+                    <a href="index.html" data-i18n="nav.home">
+                        Home
+                    </a>
+
+                    <a href="about.html" data-i18n="nav.about">
+                        About
+                    </a>
+
+                    <a href="services.html" data-i18n="nav.services">
+                        Services
+                    </a>
+
+                    <a href="portfolio.html" data-i18n="nav.portfolio">
+                        Portfolio
+                    </a>
+
+                    <a href="contact.html" data-i18n="nav.contact">
+                        Contact
+                    </a>
+
+
+                    <!-- TOMBOL BAHASA -->
+                    <button id="languageButton" onclick="changeLanguage()">
+                        🇬🇧 EN
+                    </button>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- MOBILE MENU -->
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!--================ HERO ================-->
+
+    <section class="hero">
+
+        <div class="container hero-container">
+
+            <div class="hero-text">
+
+                <span class="subtitle" data-i18n="hero.subtitle">
+                    WELCOME TO SWISS CONSULTING
+                </span>
+
+
+                <h1 data-i18n="hero.title">
+                    Swiss Precision.
+                    Indonesian Hospitality.
+                    Flawless Execution.
+                </h1>
+
+
+                <p data-i18n="hero.description">
+                    Over two decades of Swiss construction mastery,
+                    protecting your luxury property investment
+                    in Indonesia.
+                </p>
+
+
+                <div class="hero-button">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--================ ABOUT ================-->
+
+    <section class="about">
+
+        <div class="container about-container">
+
+            <!-- IMAGE -->
+            <div class="about-image">
+
+                <img
+                    src="steve.jpeg"
+                    alt="About Swiss Consulting">
+
+            </div>
+
+
+            <!-- CONTENT -->
+            <div class="about-content">
+
+                <span data-i18n="home.about">ABOUT US</span>
+
+                <h2 data-i18n="about.title">
+                    Bringing 22 Years of
+                    Swiss Construction Supervision & Quality Consulting
+                </h2>
+
+
+                <p data-i18n="home.about.description">
+                    Building a luxury villa or premium commercial property
+                    requires more than excellent design — it requires
+                    precision, strict quality standards, and experienced
+                    supervision.
+
+                    With over 22 years of experience in the Swiss construction
+                    industry, Steven Riehl helps property owners and investors
+                    ensure every project is built to the highest standards.
+
+                    Now based in Bandung, he provides independent construction
+                    supervision and quality consulting throughout Indonesia.
+                </p>
+
+
+                <a
+                    href="about.html"
+                    class="btn-primary"
+                    data-i18n="home.about.button">
+
+                    READ MORE
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--================ SERVICES ================-->
+
+    <section class="services">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span data-i18n="home.services">OUR SERVICES</span>
+                <h2 data-i18n="home.services.title">
+                    What We Do
+                </h2>
+
+            </div>
+
+
+            <!-- SERVICE GRID -->
+
+            <div class="service-grid">
+
+
+                <!-- SERVICE 1 -->
+
+                <div class="service-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3 data-i18n="services.service1.title">
+                        🏗 Construction Supervision
+                    </h3>
+
+                    <p data-i18n="services.service1.description">
+                        Independent supervision to ensure every
+                        construction stage meets quality, technical,
+                        and project standards.
+                    </p>
+
+                </div>
+
+
+                <!-- SERVICE 2 -->
+
+                <div class="service-card">
+
+                    <i class="fa-solid fa-palette"></i>
+
+                    <h3 data-i18n="services.service2.title">
+                        Quality Inspection
+                    </h3>
+
+                    <p data-i18n="services.service2.description">
+                        Detailed inspection of materials, workmanship,
+                        finishes, and construction quality throughout
+                        the project.
+                    </p>
+
+                </div>
+
+
+                <!-- SERVICE 3 -->
+
+                <div class="service-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h3 data-i18n="services.service3.title">
+                        Construction Consulting
+                    </h3>
+
+                    <p data-i18n="services.service3.description">
+                        Practical technical advice to help property
+                        owners make the right decisions throughout
+                        the construction process.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--================ CONTACT ================-->
+
+    <section class="contact">
+
+        <div class="container contact-container">
+
+
+            <!-- TEXT -->
+
+            <div>
+
+                <h2 data-i18n="contact.title">
+                    Ready to Build with Swiss Quality?
+                </h2>
+
+            </div>
+
+
+            <!-- BUTTON -->
+
+            <div>
+
+                <a
+                    href="contact.html"
+                    class="btn-primary"
+                    data-i18n="contact.button">
+
+                    Contact Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--================ FOOTER ================-->
+
+    <footer>
+
+        <div class="container footer-container">
+
+
+            <!-- FOOTER BRAND -->
+
+            <div>
+
+                <h2 data-i18n="footer.title">
+                    SWISS CONSULTING
+                </h2>
+
+
+                <p data-i18n="footer.description">
+                    Swiss Construction Supervision & Quality Consulting.
+                </p>
+
+            </div>
+
+
+            <!-- FOOTER MENU -->
+
+            <div>
+
+                <ul>
+
+                    <li>
+                        <a
+                            href="index.html"
+                            data-i18n="nav.home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="about.html"
+                            data-i18n="nav.about">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="services.html"
+                            data-i18n="nav.services">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="portfolio.html"
+                            data-i18n="nav.portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="contact.html"
+                            data-i18n="nav.contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div
+            class="copyright"
+            data-i18n="footer.copyright">
+
+            ©2026 Swiss Consulting.
+
+        </div>
+
+    </footer>
+
+
+    <!--================ BACK TO TOP ================-->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!--================ JS ================-->
+
+    <script src="navbar.js"></script>
+    <script src="menu.js"></script>
+    <script src="counter.js"></script>
+    <script src="main.js"></script>
+    <script src="language.js"></script>
+
+</body>
+
+</html>

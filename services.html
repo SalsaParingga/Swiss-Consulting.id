@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services | Swiss Consulting</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="variabel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    >
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+
+<div class="loader">
+    <span></span>
+</div>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header id="header">
+
+    <div class="container">
+
+        <div class="navbar">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpeg" alt="Swiss Consulting Logo">
+                </a>
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav id="navbar">
+
+                <ul>
+
+                    <li>
+                        <a
+                            href="index.html"
+                            data-i18n="nav.home"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="about.html"
+                            data-i18n="nav.about"
+                        >
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="services.html"
+                            data-i18n="nav.services"
+                        >
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="portfolio.html"
+                            data-i18n="nav.portfolio"
+                        >
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="contact.html"
+                            data-i18n="nav.contact"
+                        >
+                            Contact
+                        </a>
+                    </li>
+
+                    <!-- LANGUAGE BUTTON -->
+                    <li>
+
+                        <button
+                            id="languageButton"
+                            onclick="changeLanguage()"
+                        >
+                            🇬🇧 EN
+                        </button>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- MOBILE MENU -->
+            <div class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="page-header">
+
+    <div class="container">
+
+        <div class="page-header-content fade-up">
+
+            <span data-i18n="services.hero.subtitle">
+                OUR SERVICES
+            </span>
+
+
+            <h1 data-i18n="services.hero.title">
+                Swiss Construction Supervision &
+                Quality Consulting
+            </h1>
+
+
+            <p data-i18n="services.hero.description">
+                Professional Swiss construction supervision,
+                quality inspections, and project consulting
+                for luxury villas and premium commercial
+                properties across Indonesia.
+            </p>
+
+
+            <!-- BREADCRUMB -->
+            <div class="breadcrumb">
+
+                <a
+                    href="index.html"
+                    data-i18n="nav.home"
+                >
+                    Home
+                </a>
+
+                <span>/</span>
+
+                <span data-i18n="nav.services">
+                    Services
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICES
+========================================================= -->
+
+<section class="services">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span data-i18n="services.section.subtitle">
+                WHAT WE DO
+            </span>
+
+
+            <h2 data-i18n="services.section.title">
+                Services We Provide
+            </h2>
+
+
+            <p data-i18n="services.section.description">
+                Professional services tailored to meet your
+                business goals and digital transformation needs.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <!-- SERVICE 1 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-user-check"></i>
+
+                <h3 data-i18n="services.service1.title">
+                    Owner Representation
+                </h3>
+
+                <p data-i18n="services.service1.description">
+                    Representing property owners during
+                    construction, especially for overseas investors.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICE 2 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-helmet-safety"></i>
+
+                <h3 data-i18n="services.service2.title">
+                    Construction Site Supervision
+                </h3>
+
+                <p data-i18n="services.service2.description">
+                    Independent supervision throughout every stage
+                    of construction to ensure Swiss-quality execution.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICE 3 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-building-circle-check"></i>
+
+                <h3 data-i18n="services.service3.title">
+                    Quality Control Inspection
+                </h3>
+
+                <p data-i18n="services.service3.description">
+                    Detailed inspection of workmanship,
+                    materials, and construction quality.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICE 4 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-ruler-combined"></i>
+
+                <h3 data-i18n="services.service4.title">
+                    Technical Consultation
+                </h3>
+
+                <p data-i18n="services.service4.description">
+                    Professional advice before and during
+                    construction to minimize costly mistakes.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICE 5 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-border-all"></i>
+
+                <h3 data-i18n="services.service5.title">
+                    Tile & Finish Inspection
+                </h3>
+
+                <p data-i18n="services.service5.description">
+                    Swiss precision inspection for tiling,
+                    alignment, waterproofing, and finishing.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICE 6 -->
+            <div class="service-card fade-up">
+
+                <i class="fa-solid fa-house"></i>
+
+                <h3 data-i18n="services.service6.title">
+                    Luxury Villa Supervision
+                </h3>
+
+                <p data-i18n="services.service6.description">
+                    Specialized supervision for luxury villas,
+                    private residences, and premium homes.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROCESS
+========================================================= -->
+
+<section class="why">
+
+    <div class="container why-container">
+
+        <div class="why-content">
+
+
+            <span data-i18n="services.process.subtitle">
+                OUR PROCESS
+            </span>
+
+
+            <h2 data-i18n="services.process.title">
+                How We Work
+            </h2>
+
+
+            <p data-i18n="services.process.description">
+                Every project follows a structured workflow
+                to ensure quality, efficiency, and client satisfaction.
+            </p>
+
+
+            <!-- PROCESS 1 -->
+            <div class="why-item">
+
+                <i class="fa-solid fa-comments"></i>
+
+                <div>
+
+                    <h4 data-i18n="services.process.step1.title">
+                        Consultation
+                    </h4>
+
+                    <p data-i18n="services.process.step1.description">
+                        Understanding your project,
+                        requirements and expectations.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROCESS 2 -->
+            <div class="why-item">
+
+                <i class="fa-solid fa-clipboard-check"></i>
+
+                <div>
+
+                    <h4 data-i18n="services.process.step2.title">
+                        Site Assessment
+                    </h4>
+
+                    <p data-i18n="services.process.step2.description">
+                        Reviewing drawings, contractors,
+                        and construction plans.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROCESS 3 -->
+            <div class="why-item">
+
+                <i class="fa-solid fa-helmet-safety"></i>
+
+                <div>
+
+                    <h4 data-i18n="services.process.step3.title">
+                        Construction Supervision
+                    </h4>
+
+                    <p data-i18n="services.process.step3.description">
+                        Monitoring workmanship, materials,
+                        construction progress, and quality standards.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROCESS 4 -->
+            <div class="why-item">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                <div>
+
+                    <h4 data-i18n="services.process.step4.title">
+                        Final Quality Inspection
+                    </h4>
+
+                    <p data-i18n="services.process.step4.description">
+                        Conducting a comprehensive inspection before
+                        project handover to ensure Swiss-quality execution.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+
+<section class="faq">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span data-i18n="services.faq.subtitle">
+                FAQ
+            </span>
+
+            <h2 data-i18n="services.faq.title">
+                Frequently Asked Questions
+            </h2>
+
+        </div>
+
+
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+
+            <h3>
+
+                <i class="fa-solid fa-circle-question"></i>
+
+                <span data-i18n="services.faq.q1">
+                    Do you supervise private residential projects?
+                </span>
+
+            </h3>
+
+            <p data-i18n="services.faq.a1">
+                Yes. We supervise villas, private homes,
+                and commercial buildings.
+            </p>
+
+        </div>
+
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+
+            <h3>
+
+                <i class="fa-solid fa-circle-question"></i>
+
+                <span data-i18n="services.faq.q2">
+                    Can you work with my existing contractor?
+                </span>
+
+            </h3>
+
+            <p data-i18n="services.faq.a2">
+                Yes. We provide independent supervision
+                without replacing your contractor.
+            </p>
+
+        </div>
+
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+
+            <h3>
+
+                <i class="fa-solid fa-circle-question"></i>
+
+                <span data-i18n="services.faq.q3">
+                    Do you work with overseas investors?
+                </span>
+
+            </h3>
+
+            <p data-i18n="services.faq.a3">
+                Absolutely. We provide reports,
+                photos, and regular updates.
+            </p>
+
+        </div>
+
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+
+            <h3>
+
+                <i class="fa-solid fa-circle-question"></i>
+
+                <span data-i18n="services.faq.q4">
+                    Which areas do you serve?
+                </span>
+
+            </h3>
+
+            <p data-i18n="services.faq.a4">
+                Bandung, Jakarta, and selected projects
+                throughout Indonesia.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="contact">
+
+    <div class="container contact-container">
+
+        <div>
+
+            <h2 data-i18n="services.cta.title">
+                Ready to Build with Swiss Quality?
+            </h2>
+
+            <p data-i18n="services.cta.description">
+                Let's discuss your project today.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a
+                href="contact.html"
+                class="btn-primary"
+                data-i18n="services.cta.button"
+            >
+                Get Started
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+
+        <!-- FOOTER BRAND -->
+        <div>
+
+            <h2>
+                Swiss Consulting
+            </h2>
+
+            <p data-i18n="footer.services.description">
+                Providing Swiss construction supervision,
+                quality consulting, and project management
+                for luxury developments in Indonesia.
+            </p>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+        <div>
+
+            <h3 data-i18n="footer.quicklinks">
+                Quick Links
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a
+                        href="index.html"
+                        data-i18n="nav.home"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="about.html"
+                        data-i18n="nav.about"
+                    >
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="services.html"
+                        data-i18n="nav.services"
+                    >
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="portfolio.html"
+                        data-i18n="nav.portfolio"
+                    >
+                        Portfolio
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="contact.html"
+                        data-i18n="nav.contact"
+                    >
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- FOOTER SERVICES -->
+        <div>
+
+            <h3 data-i18n="footer.services">
+                Services
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service1.title"
+                    >
+                        Owner Representation
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service2.title"
+                    >
+                        Construction Supervision
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service3.title"
+                    >
+                        Quality Inspection
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service4.title"
+                    >
+                        Technical Consultation
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service5.title"
+                    >
+                        Tile & Finish Inspection
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="#"
+                        data-i18n="services.service6.title"
+                    >
+                        Luxury Villa Supervision
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- SOCIAL MEDIA -->
+        <div>
+
+            <h3 data-i18n="footer.follow">
+                Follow Us
+            </h3>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+    <div
+        class="copyright"
+        data-i18n="footer.copyright"
+    >
+        ©2026 Swiss Consulting.
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     BACK TO TOP
+========================================================= -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="navbar.js"></script>
+<script src="menu.js"></script>
+<script src="counter.js"></script>
+<script src="main.js"></script>
+<script src="language.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+/*======================================
+        GOOGLE FONT
+======================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*======================================
+        ROOT VARIABLES
+======================================*/
+
+:root{
+
+    --primary:#ff5e14;
+
+    --secondary:#0f172a;
+
+    --white:#ffffff;
+
+    --black:#111827;
+
+    --gray:#6b7280;
+
+    --light:#f8fafc;
+
+    --border:#e5e7eb;
+
+    --shadow:0 15px 35px rgba(0,0,0,.08);
+
+    --radius:14px;
+
+    --transition:.4s ease;
+
+}
+
+/*======================================
+        RESET
+======================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    color:var(--black);
+
+    background:#fff;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+section{
+
+    padding:100px 0;
+
+}

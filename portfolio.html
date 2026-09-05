@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Swiss Consulting</title>
+
+    <link rel="stylesheet" href="variabel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--================ LOADER =================-->
+
+<div class="loader">
+    <span>THE PROJECTS</span>
+</div>
+
+
+<!--================ HEADER =================-->
+
+<header id="header">
+
+    <div class="container">
+
+        <div class="navbar">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpeg" alt="Swiss Consulting Logo">
+                </a>
+            </div>
+
+            <nav id="navbar">
+
+                <ul>
+
+                    <li>
+                        <a href="index.html" data-i18n="nav.home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" data-i18n="nav.about">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="services.html" data-i18n="nav.services">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html" data-i18n="nav.portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" data-i18n="nav.contact">
+                            Contact
+                        </a>
+                    </li>
+
+                    <!-- LANGUAGE BUTTON -->
+
+                    <li>
+                        <button id="languageButton" onclick="changeLanguage()">
+                            🇬🇧 EN
+                        </button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <div class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!--================ HERO =================-->
+
+<section class="page-header">
+
+    <div class="container">
+
+        <div class="page-header-content fade-up">
+
+            <span data-i18n="portfolio.hero.subtitle">
+                OUR WORKS
+            </span>
+
+
+            <h1 data-i18n="portfolio.hero.title">
+                Swiss Construction Reference Project by Steven Riehl
+            </h1>
+
+
+            <p data-i18n="portfolio.hero.description">
+                Explore our reference project of luxury villas, commercial buildings,
+                and construction projects completed with Swiss quality standards.
+            </p>
+
+
+            <div class="breadcrumb">
+
+                <a href="index.html" data-i18n="nav.home">
+                    Home
+                </a>
+
+                <span>/</span>
+
+                <span data-i18n="nav.portfolio">
+                    Portfolio
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ PORTFOLIO =================-->
+
+<section class="portfolio">
+
+    <div class="container">
+
+
+        <!-- SECTION TITLE -->
+
+        <div class="section-title">
+
+            <span data-i18n="portfolio.section.subtitle">
+                PORTFOLIO
+            </span>
+
+
+            <h2 data-i18n="portfolio.section.title">
+                Featured Construction Projects
+            </h2>
+
+
+            <p data-i18n="portfolio.section.description">
+                Showcasing selected construction supervision, quality consulting,
+                and premium building projects delivered with Swiss engineering excellence.
+            </p>
+
+        </div>
+
+
+        <!--================ FILTER =================-->
+
+        <div class="portfolio-filter">
+
+            <button class="active" data-i18n="portfolio.filter.all">
+                All
+            </button>
+
+            <button data-i18n="portfolio.filter.reference">
+                Reference Project
+            </button>
+
+        </div>
+
+
+        <!--================ PORTFOLIO GRID =================-->
+
+        <div class="portfolio-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="villa.jpeg" alt="Marble Interior">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project1.title">
+                        Marble Interior
+                    </h3>
+
+                    <p data-i18n="portfolio.project1.description">
+                        Elegant stone finishes with refined details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="aula.jpeg" alt="Modern Garage">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project2.title">
+                        Modern Garage
+                    </h3>
+
+                    <p data-i18n="portfolio.project2.description">
+                        Spacious design with clean architectural lines.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="Living room.jpeg" alt="Luxury Hall">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project3.title">
+                        Luxury Hall
+                    </h3>
+
+                    <p data-i18n="portfolio.project3.description">
+                        Sophisticated interior with premium finishes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="kitchen.jpeg" alt="Modern Kitchen Cabinetry">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project4.title">
+                        Modern Kitchen Cabinetry
+                    </h3>
+
+                    <p data-i18n="portfolio.project4.description">
+                        Elegant custom cabinetry with marble finishes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 5 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="stairs.jpeg" alt="Contemporary Staircase">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project5.title">
+                        Contemporary Staircase
+                    </h3>
+
+                    <p data-i18n="portfolio.project5.description">
+                        Elegant curves with refined lighting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 6 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="kitchen2.jpeg" alt="Luxury Red Kitchen">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project6.title">
+                        Luxury Red Kitchen
+                    </h3>
+
+                    <p data-i18n="portfolio.project6.description">
+                        Bold cabinetry with premium finishes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 7 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="bathroom.jpeg" alt="Luxury Bathroom">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project7.title">
+                        Luxury Bathroom
+                    </h3>
+
+                    <p data-i18n="portfolio.project7.description">
+                        Sophisticated bathroom featuring premium stone finishes,
+                        a freestanding bathtub, and natural light.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 8 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="bathroom3.jpeg" alt="Marble Bathroom">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project8.title">
+                        Marble Bathroom
+                    </h3>
+
+                    <p data-i18n="portfolio.project8.description">
+                        Elegant marble bathroom with a freestanding bathtub
+                        and warm ambient lighting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 9 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="bathroom4.jpeg" alt="Bathroom Vanity">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project9.title">
+                        Bathroom Vanity
+                    </h3>
+
+                    <p data-i18n="portfolio.project9.description">
+                        Contemporary bathroom featuring custom vanities,
+                        premium finishes, and refined details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 10 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="Bathroom6.jpeg" alt="Elegant Bath">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project10.title">
+                        Elegant Bath
+                    </h3>
+
+                    <p data-i18n="portfolio.project10.description">
+                        Refined design with luxurious details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 11 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="Indoor stairs.jpeg" alt="Spiral Staircase">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project11.title">
+                        Spiral Staircase
+                    </h3>
+
+                    <p data-i18n="portfolio.project11.description">
+                        Elegant curves with a luxurious gold handrail.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 12 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="KM.jpeg" alt="Modern Vanity">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project12.title">
+                        Modern Vanity
+                    </h3>
+
+                    <p data-i18n="portfolio.project12.description">
+                        Clean design with custom cabinetry.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 13 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="family room.jpeg" alt="Luxury Kitchen">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project13.title">
+                        Luxury Kitchen
+                    </h3>
+
+                    <p data-i18n="portfolio.project13.description">
+                        Bold cabinetry with premium finishes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 14 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="Minimalist Storage Cabinet.jpeg" alt="Luxury Wardrobe">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project14.title">
+                        Luxury Wardrobe
+                    </h3>
+
+                    <p data-i18n="portfolio.project14.description">
+                        Elegant built-in storage with refined details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 15 -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="Minimalist Storage Cabinet2.jpeg" alt="Modern Storage">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project15.title">
+                        Modern Storage
+                    </h3>
+
+                    <p data-i18n="portfolio.project15.description">
+                        Clean built-in storage with elegant details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 16 - VIDEO -->
+
+            <div class="portfolio-item fade-up">
+
+                <video autoplay muted loop playsinline preload="metadata">
+
+                    <source src="vid1.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project16.title">
+                        Modern Corridor
+                    </h3>
+
+                    <p data-i18n="portfolio.project16.description">
+                        Elegant curves with subtle lighting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 17 - FOTO -->
+
+            <div class="portfolio-item fade-up">
+
+                <img src="rtamu.jpeg" alt="Grand Interior">
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project17.title">
+                        Grand Interior
+                    </h3>
+
+                    <p data-i18n="portfolio.project17.description">
+                        Elegant space with refined lighting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 18 - VIDEO -->
+
+            <div class="portfolio-item fade-up">
+
+                <video autoplay muted loop playsinline preload="metadata">
+
+                    <source src="vid2.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project18.title">
+                        Custom Cabinetry
+                    </h3>
+
+                    <p data-i18n="portfolio.project18.description">
+                        Refined storage with modern details.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 19 - VIDEO -->
+
+            <div class="portfolio-item fade-up">
+
+                <video autoplay muted loop playsinline preload="metadata">
+
+                    <source src="vid3.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project19.title">
+                        Herringbone Flooring
+                    </h3>
+
+                    <p data-i18n="portfolio.project19.description">
+                        Elegant flooring with a timeless pattern.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 20 - VIDEO -->
+
+            <div class="portfolio-item fade-up">
+
+                <video autoplay muted loop playsinline preload="metadata">
+
+                    <source src="vid4.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project20.title">
+                        Custom Cabinetry
+                    </h3>
+
+                    <p data-i18n="portfolio.project20.description">
+                        Clean design with functional storage.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 21 - VIDEO -->
+
+            <div class="portfolio-item fade-up">
+
+                <video autoplay muted loop playsinline preload="metadata">
+
+                    <source src="vid5.mp4" type="video/mp4">
+
+                </video>
+
+                <div class="portfolio-overlay">
+
+                    <h3 data-i18n="portfolio.project21.title">
+                        Modern Washroom
+                    </h3>
+
+                    <p data-i18n="portfolio.project21.description">
+                        Clean lines with elegant fixtures.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ CALL TO ACTION =================-->
+
+<section class="contact">
+
+    <div class="container contact-container">
+
+        <div>
+
+            <h2 data-i18n="portfolio.cta.title">
+                Ready to Build with Swiss Quality?
+            </h2>
+
+            <p data-i18n="portfolio.cta.description">
+                Let's discuss your project today.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <a href="contact.html"
+               class="btn-primary"
+               data-i18n="portfolio.cta.button">
+
+                Start Your Project
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--================ FOOTER =================-->
+
+<footer>
+
+    <div class="container footer-container">
+
+
+        <!-- FOOTER BRAND -->
+
+        <div>
+
+            <h2>
+                Swiss Consulting.
+            </h2>
+
+            <p data-i18n="footer.description">
+                Providing Swiss construction supervision, quality consulting,
+                and project management for luxury developments in Indonesia.
+            </p>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+
+        <div>
+
+            <h3 data-i18n="footer.quicklinks">
+                Quick Links
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="index.html" data-i18n="nav.home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html" data-i18n="nav.about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html" data-i18n="nav.services">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="portfolio.html" data-i18n="nav.portfolio">
+                        Portfolio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html" data-i18n="nav.contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- FOLLOW US -->
+
+        <div>
+
+            <h3 data-i18n="footer.follow">
+                Follow Us
+            </h3>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="copyright" data-i18n="footer.copyright">
+        ©2026 Swiss Consulting.
+    </div>
+
+</footer>
+
+
+<!--================ BACK TO TOP =================-->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<!--================ SCRIPTS =================-->
+
+<script src="navbar.js"></script>
+<script src="menu.js"></script>
+<script src="counter.js"></script>
+<script src="main.js"></script>
+<script src="language.js"></script>
+
+</body>
+
+</html>
