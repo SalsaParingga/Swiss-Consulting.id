@@ -2011,8 +2011,8 @@ textarea:focus{
     padding-bottom: 20px !important;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .hero {
-        padding-top: 300px;
+        padding-top: 350px !important;
     }
 }
