@@ -502,3 +502,17 @@ footer{
     }
 
 }
+@media (max-width: 768px){
+
+    .hero::before{
+        background:
+            linear-gradient(
+                180deg,
+                rgba(255,255,255,.97) 0%,
+                rgba(255,255,255,.90) 35%,
+                rgba(255,255,255,.60) 65%,
+                rgba(255,255,255,0) 100%
+            ) !important;
+    }
+
+}
