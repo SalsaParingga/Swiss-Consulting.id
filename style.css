@@ -299,10 +299,9 @@ nav ul li a:hover{
     padding-bottom: 0;
 }
 
-/* KHUSUS HP */
 @media screen and (max-width: 768px) {
-    .hero {
-        padding-top: 300px !important;
+    .hero-text {
+        padding-top: 100px !important;
     }
 }
 /*======================================================
