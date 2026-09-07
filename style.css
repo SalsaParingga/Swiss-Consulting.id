@@ -2012,3 +2012,71 @@ textarea:focus{
     padding-bottom: 20px !important;
 }
 
+/*======================================================
+            MOBILE FIX - HEADER & HERO
+======================================================*/
+
+@media (max-width: 768px){
+
+    /* HEADER */
+    header .container{
+        padding:15px 0;
+    }
+
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    /* LOGO */
+    .logo a{
+        margin:0;
+        justify-content:center;
+    }
+
+    .logo img{
+        width:230px;
+    }
+
+    /* HAMBURGER */
+    .menu-btn{
+        display:block;
+        margin-top:15px;
+        align-self:flex-start;
+    }
+
+    /* HERO */
+    .hero{
+        min-height:auto;
+        padding-top:250px !important;
+        padding-bottom:30px !important;
+    }
+
+    .hero-text{
+        text-align:center;
+    }
+
+    /* WELCOME */
+    .subtitle{
+        display:block;
+        font-size:13px;
+        margin-bottom:15px;
+        position:relative;
+        z-index:5;
+    }
+
+    /* JUDUL */
+    .hero-text h1{
+        font-size:42px;
+        line-height:1.35;
+        margin-bottom:25px;
+    }
+
+    /* DESKRIPSI */
+    .hero-text p{
+        font-size:16px;
+        line-height:1.9;
+        margin-bottom:30px;
+    }
+
+}
