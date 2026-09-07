@@ -299,11 +299,7 @@ nav ul li a:hover{
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .hero-text {
-        padding-top: 100px !important;
-    }
-}
+
 /*======================================================
             HERO TEXT
 ======================================================*/
@@ -2016,55 +2012,3 @@ textarea:focus{
     padding-bottom: 20px !important;
 }
 
-@media screen and (max-width: 768px) {
-
-    header .container {
-        padding: 12px 0 !important;
-    }
-
-    .logo a {
-        margin-left: 0 !important;
-        margin-top: 0 !important;
-    }
-
-    .logo img {
-        width: 180px !important;
-        max-width: 70vw !important;
-    }
-
-    #navbar {
-        display: none !important;
-    }
-
-    .menu-btn {
-        display: block !important;
-        margin-left: auto;
-    }
-
-    .hero {
-        min-height: 650px !important;
-        padding-top: 0 !important;
-    }
-
-    .hero-container {
-        padding-top: 160px !important;
-        position: relative !important;
-        z-index: 10 !important;
-    }
-
-    .hero-text {
-        position: relative !important;
-        z-index: 11 !important;
-    }
-
-    .subtitle {
-        font-size: 13px !important;
-        margin-bottom: 12px !important;
-    }
-
-    .hero-text h1 {
-        font-size: 36px !important;
-        line-height: 46px !important;
-    }
-
-}
