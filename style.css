@@ -2015,9 +2015,3 @@ textarea:focus{
 .home .about {
     padding-bottom: 20px !important;
 }
-
-@media screen and (max-width: 768px) {
-    .hero-container {
-        padding-top: 100px !important;
-    }
-}
