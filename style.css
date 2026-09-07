@@ -299,6 +299,12 @@ nav ul li a:hover{
     padding-bottom: 0;
 }
 
+/* KHUSUS HP */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 300px !important;
+    }
+}
 /*======================================================
             HERO TEXT
 ======================================================*/
@@ -2009,10 +2015,4 @@ textarea:focus{
 
 .home .about {
     padding-bottom: 20px !important;
-}
-
-@media screen and (max-width: 768px) {
-    .hero {
-        padding-top: 350px !important;
-    }
 }
