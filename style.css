@@ -2010,10 +2010,9 @@ textarea:focus{
 .home .about {
     padding-bottom: 20px !important;
 }
-@media (max-width: 768px){
 
-    .hero{
-        padding-top: 210px;
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 300px;
     }
-
 }
