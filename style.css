@@ -2153,6 +2153,7 @@ textarea:focus{
        z-index: 10001;
        cursor: pointer;
        pointer-events: auto !important;
+       background: red !important; /* TAMBAHKAN DI SINI */
      }
 
     /* NAVBAR */
