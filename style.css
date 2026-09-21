@@ -2229,3 +2229,10 @@ textarea:focus{
     }
 
 }
+@media (max-width: 768px) {
+    .hamburger {
+        position: relative !important;
+        z-index: 99999 !important;
+        pointer-events: auto !important;
+    }
+}
