@@ -2138,34 +2138,37 @@ textarea:focus{
     }
 
     /* HAMBURGER */
-    .menu-btn{
-        display:block !important;
-        position:absolute;
-        left:20px;
-        top:50%;
-        transform:translateY(-50%);
-        margin:0 !important;
-        padding:0;
-        font-size:32px;
-        line-height:1;
-        z-index:1001;
-        cursor:pointer;
-        pointer-events:auto !important;
+    .menu-btn {
+       display: block !important;
+       position: absolute;
+       left: 20px;
+       top: 50%;
+       transform: translateY(-50%);
+    
+       margin: 0 !important;
+       padding: 0;
+     
+       font-size: 32px;
+       line-height: 1;
+       z-index: 10001;
+       cursor: pointer;
+       pointer-events: auto !important;
+     }
+
+    /* NAVBAR */
+    #navbar {
+    display: none;
     }
 
-    /* NAV MENU */
-    #navbar{
-    display:none;
-    }
-    #navbar.active{
-         display:block;
-         position:absolute;
-         top:80px;
-         left:0;
-         width:100%;
-         background:#ffffff;
-      z-index:9999;
-    }
+    #navbar.active {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: #ffffff;
+      z-index: 10000;
+}
 
     /* ==============================
        HERO MOBILE
@@ -2228,11 +2231,4 @@ textarea:focus{
         padding-bottom:40px !important;
     }
 
-}
-@media (max-width: 768px) {
-    .hamburger {
-        position: relative !important;
-        z-index: 99999 !important;
-        pointer-events: auto !important;
-    }
 }
