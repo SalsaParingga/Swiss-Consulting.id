@@ -2144,16 +2144,20 @@ textarea:focus{
        left: 20px;
        top: 50%;
        transform: translateY(-50%);
+       width: 50px !important;
+       height: 50px !important;
     
        margin: 0 !important;
        padding: 0;
-     
+                
        font-size: 32px;
-       line-height: 1;
-       z-index: 10001;
+       line-height: 50px;
+       text-align: center
+                
+       z-index: 99999 !important;
        cursor: pointer;
        pointer-events: auto !important;
-       background: red !important; /* TAMBAHKAN DI SINI */
+       background: red !important;
      }
 
     /* NAVBAR */
@@ -2162,15 +2166,27 @@ textarea:focus{
     }
 
     #navbar.active {
-      display: block;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      background: #ffffff;
-      z-index: 10000;
-}
+       display: block;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       width: 100%;
+       background: #ffffff;
+       z-index: 99998;
+    }
+    #navbar ul {
+       display: flex;
+       flex-direction: column;
+       gap: 0;
+       margin: 0;
+       padding: 20px;
+     }
 
+     #navbar ul a {
+       display: block;
+       padding: 15px 20px;
+       font-size: 18px;
+     }
     /* ==============================
        HERO MOBILE
     ============================== */
