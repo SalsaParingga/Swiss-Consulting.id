@@ -3,25 +3,37 @@
 // ==============================
 
 const menuBtn = document.querySelector(".menu-btn");
-
 const navbar = document.getElementById("navbar");
 
-menuBtn.addEventListener("click",()=>{
+console.log("MENU BTN:", menuBtn);
+console.log("NAVBAR:", navbar);
 
-    navbar.classList.toggle("active");
+if (menuBtn && navbar) {
 
-    menuBtn.classList.toggle("active");
+    menuBtn.addEventListener("click", function () {
 
-});
+        console.log("HAMBURGER DIKLIK!");
 
-document.querySelectorAll("#navbar a").forEach(link=>{
+        alert("HAMBURGER KEKLIK!");
 
-    link.addEventListener("click",()=>{
-
-        navbar.classList.remove("active");
-
-        menuBtn.classList.remove("active");
+        navbar.classList.toggle("active");
+        menuBtn.classList.toggle("active");
 
     });
 
-});
+    document.querySelectorAll("#navbar a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            navbar.classList.remove("active");
+            menuBtn.classList.remove("active");
+
+        });
+
+    });
+
+} else {
+
+    console.error("MENU BUTTON ATAU NAVBAR TIDAK DITEMUKAN!");
+
+}
