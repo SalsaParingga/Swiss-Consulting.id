@@ -2249,3 +2249,25 @@ textarea:focus{
     }
 
 }
+/* ==============================
+   FIX MOBILE MENU CLICK
+============================== */
+
+     .loader{
+        pointer-events:none !important;
+      }
+
+     .menu-btn{
+        pointer-events:auto !important;
+        cursor:pointer !important;
+        position:absolute !important;
+        z-index:999999 !important;
+      }
+
+      .menu-btn i{
+         pointer-events:none !important;
+      }
+
+      header{
+         z-index:999999 !important;
+      }
