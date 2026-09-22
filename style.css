@@ -2152,12 +2152,11 @@ textarea:focus{
                 
        font-size: 32px;
        line-height: 50px;
-       text-align: center
+       text-align: center;
                 
        z-index: 99999 !important;
        cursor: pointer;
        pointer-events: auto !important;
-       background: red !important;
      }
 
     /* NAVBAR */
