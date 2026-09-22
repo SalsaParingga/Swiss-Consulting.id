@@ -96,54 +96,60 @@ section{
         NAVBAR
 --------------------------*/
 
+/*-------------------------
+        NAVBAR
+--------------------------*/
+
 .menu-btn{
-
-    display:block;
-    z-index:9999;
-
+    display:block !important;
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    width:50px;
+    height:50px;
+    padding:0;
+    margin:0;
+    font-size:32px;
+    line-height:50px;
+    text-align:center;
+    z-index:999999 !important;
+    cursor:pointer;
+    pointer-events:auto !important;
 }
-nav{
 
-    position:fixed;
+.menu-btn i{
+    pointer-events:none;
+}
 
-    top:0;
-    right:-100%;
+#navbar{
+    display:none !important;
+}
 
-    width:280px;
-    height:100vh;
-
+#navbar.active{
+    display:block !important;
+    position:absolute;
+    top:80px;
+    left:0;
+    right:auto;
+    width:100%;
+    height:auto;
     background:#ffffff;
+    z-index:999998;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
 
+#navbar ul{
     display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    transition:.4s;
-
-    box-shadow:-5px 0 20px rgba(0,0,0,.08);
-
-}
-
-nav.active{
-
-    right:0;
-
-}
-            
-nav ul{
-
     flex-direction:column;
-
-    gap:35px;
-
+    align-items:center;
+    gap:25px;
+    padding:25px;
+    margin:0;
 }
 
-nav ul li a{
-
-    font-size:20px;
-
+#navbar ul li a{
+    font-size:18px;
 }
 
 /*-------------------------
